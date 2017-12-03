@@ -1,0 +1,17 @@
+{
+  "name": "backtheweb/laravel-recaptcha",
+  "description": "google recaptcha for Laravel 5",
+  "keywords": ["recaptcha", "laravel"],
+  "license": "MIT",
+  "require": {
+    "php": "^7.0",
+    "guzzlehttp/guzzle": "6.*",
+    "laravel/framework": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Backtheweb\\ReCaptcha\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
